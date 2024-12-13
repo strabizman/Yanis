@@ -1,0 +1,34 @@
+{
+  "ships": [
+    {
+      "id": "1",
+      "name": "Ironclad",
+      "class": "Combat lourd",
+      "manufacturer": "Drake Interplanetary",
+      "crew": "1 à 6 membres",
+      "cargo_capacity": "1536 SCU",
+      "description": "Le Drake Ironclad est un grand cargo blindé conçu pour transporter en toute sécurité de grandes quantités de marchandises de valeur. Équipé d'une large gamme de tourelles et doté d'une coque blindée épaisse, l'Ironclad est parfait pour les transports de marchandises dangereux dans un espace incertain.",
+      "image": "/assets/images/Ironclade.jpg",
+      "details": "Le module de commande peut être détaché de la coque principale et utilisé comme un navire indépendant. Il sert de capsule de sauvetage du navire et peut être rattaché au navire. Le module de commande est compatible avec celui du Drake Caterpillar."
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": "ef6b",
+      "name": "Six",
+      "email": "test1@mail.com",
+      "password": "123456"
+    },
+    {
+      "id": "07ca",
+      "name": "FirstBot",
+      "email": "test2@mail.com",
+      "password": "123456789"
+    }
+  ]
+}

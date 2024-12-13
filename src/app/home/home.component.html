@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Citizen Hub</title>
+</head>
+<body class="m-0 p-0 bg-black">
+  <div class="min-h-screen bg-black text-gray-300 m-0 p-0">
+
+
+
+    <header class="relative">
+    <!-- Section vidéo sans padding -->
+    <section class="relative h-screen">
+      <video autoplay muted loop playsinline class="absolute w-full h-full object-cover z-0">
+        <source src="assets/video/Squadron42.webm" type="video/webm">
+        <source src="assets/video/Squadron42.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo HTML5.
+      </video>
+
+      <!-- Contenu de la vidéo -->
+      <div class="absolute w-full h-full z-10 flex flex-col justify-center items-center bg-black bg-opacity-50">
+        <!-- Justify-center garantit que le texte est centré verticalement -->
+        <h1 class="text-5xl font-bold text-white">Voyagez dans l'infini</h1>
+        <p class="text-xl text-gray-300 mt-4 max-w-md text-center">
+          Rejoignez la plus grande aventure spatiale et explorez des galaxies inconnues dans Star Citizen.
+        </p>
+        <a href="/inscription" class="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-black font-bold rounded-full">
+          Rejoignez la Flotte
+        </a>
+      </div>
+    </section>
+  </header>
+    <section class="min-h-screen bg-fixed bg-center bg-cover" style="background-image: url('/path-to-universe-image.jpg');">
+      <div class="h-full bg-black bg-opacity-60 flex items-center justify-center">
+        <div class="text-center px-20">
+          <h2 class="text-4xl text-white font-bold mb-6">Découvrez un Univers Sans Limites</h2>
+          <p class="text-lg text-gray-300 mt-4 mb-8 max-w-xl mx-auto">
+            Star Citizen propose des mondes incroyables, des planètes inexplorées, et des batailles interstellaires épiques.
+          </p>
+          <a href="/univers" class="mt-6 px-6 py-3 bg-blue-500 text-black font-bold rounded-full hover:bg-blue-600">
+            Explorer l'Univers
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Communauté -->
+    <section class="py-20 bg-black">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold text-white mb-6">Rejoignez une Communauté de Pilotes</h2>
+        <p class="text-gray-400 mt-4 mb-8 max-w-xl mx-auto">
+          La communauté Star Citizen est l'une des plus passionnées. Participez aux événements et collaborez avec d'autres pilotes.
+        </p>
+        <a href="/communaute" class="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-black font-bold rounded-full">
+          Découvrir la Communauté
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-500 py-10">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2024 Star Citizen Hub - Tous droits réservés.</p>
+        <div class="flex justify-center space-x-6 mt-4">
+          <a href="https://twitter.com" class="hover:text-blue-500">Twitter</a>
+          <a href="https://facebook.com" class="hover:text-blue-500">Facebook</a>
+          <a href="https://instagram.com" class="hover:text-blue-500">Instagram</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Script pour la lecture automatique de la vidéo -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const video = document.querySelector('video');
+      video.muted = true;
+      video.setAttribute('muted', '');
+
+      video.play().catch(err => {
+        console.error('La lecture automatique a été bloquée:', err);
+      });
+    });
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #C5A000; /* Couleur de fond jaune-oranger */
+    color: #FFFFFF; /* Texte blanc */
+    height: 4rem; /* Taille de la navbar */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  
+    a {
+      text-decoration: none;
+      color: inherit;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      transition: color 0.3s ease-in-out;
+  
+      &:hover {
+        color: #FFA500; /* Orange clair au survol */
+      }
+    }
+  }
